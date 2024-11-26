@@ -1,0 +1,172 @@
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin: 10px auto;
+}
+
+/* Course card styles */
+.courseCard {
+    background-color: burlywood;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Course header styles */
+.courseHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Java icon styles */
+.javaIcon {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+/* Course title styles */
+.courseTitle {
+    font-size: 24px;
+}
+
+/* Star rating styles */
+.starRating {
+    color: #f0d500; /* Yellow star color */
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Course status styles */
+.courseStatus {
+    color: green;
+    font-weight: bold;
+}
+
+/* Course description styles */
+.courseDescription {
+    margin-bottom: 15px;
+}
+
+/* Assessment count styles */
+.assessmentCount {
+    font-weight: bold;
+}
+
+/* Progress card styles */
+.progressCard {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Progress bar styles */
+.progressBar {
+    margin-bottom: 15px;
+}
+
+/* Progress label styles */
+.progressLabel {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Progress bar container styles */
+.progressBarContainer {
+    width: 100%;
+    height: 10px;
+    background-color: #e9ecef; /* Light gray background */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Progress bar fill styles */
+.progressBarFill {
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* Progress percentage styles */
+.progressPercentage {
+    float: right;
+}
+
+/* Module toggle container styles */
+.moduleToggleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* Module header styles */
+.moduleHeader {
+    width: 900px;
+    background-color: #f0f0f0;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/* Module title styles */
+.moduleTitle {
+    margin: 0;
+    font-size: 20px;
+}
+
+/* Toggle icon styles */
+.toggleIcon {
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+
+/* Form container styles */
+.formContainer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Question container styles */
+.questionContainer {
+    margin-bottom: 15px;
+}
+
+/* Submit button styles */
+.submitButton {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit button hover styles */
+.submitButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Score container styles */
+.scoreContainer {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+
